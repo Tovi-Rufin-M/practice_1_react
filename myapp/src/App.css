@@ -39,24 +39,25 @@ body {
   background: linear-gradient(135deg, #3f87a6, #ebf8e1);
   padding: 5rem 2rem;
   text-align: center;
+}
 
-  .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
 
-  .hero p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-  }
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
 
-  .hero button {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    background-color: #111;
-    color: white;
-    cursor: pointer;
-  }
+.hero button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
 }
 
 /* ABOUT */
@@ -65,37 +66,38 @@ body {
   max-width: 800px;
   margin: auto;
   text-align: center;
+}
 
-  .about h2 {
-    margin-bottom: 1rem;
-  } 
+.about h2 {
+  margin-bottom: 1rem;
 }
 
 .projects{
   background: linear-gradient(135deg, #3f60a6, #e3f8e1);
-  padding: 5rem 2rem;
   text-align: center;
+}
 
-  .projects h2 {
-    padding: 1rem;
-  } 
+.projects h2 {
+  padding: 2rem;
+} 
 
-  .project-list{
-    display: flex;
-    flex-wrap: row;
-    gap: 2rem;
-    justify-content: center;
+.project-list{
+  display: flex;
+  flex-wrap: row;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
 
-    .project-item{
-      background-color: rgba(255, 255, 255, 0.315);
-      padding: 1rem;
-      border: 1px solid #ffffff00;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 200px;
-      text-align: left;
-    }
-  }
+.project-item{
+  background-color: rgba(255, 255, 255, 0.315);
+  padding: 1rem;
+  border: 1px solid #ffffff00;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: left;
 }
 
 /* FOOTER */

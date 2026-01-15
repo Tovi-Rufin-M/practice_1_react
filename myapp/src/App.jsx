@@ -32,7 +32,10 @@ function App() {
         <div className="project-list">
           <div className="project-item">
             <h3>Project One</h3>
-            <p>A brief description of Project One.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio veritatis quod, 
+              corporis repudiandae voluptates soluta consequatur placeat quidem necessitatibus nulla 
+              perferendis animi, ipsam, saepe cupiditate temporibus? Ipsa, facilis quam.
+            </p>
           </div>
           <div className="project-item">
             <h3>Project Two</h3>
