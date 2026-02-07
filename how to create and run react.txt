@@ -1,0 +1,9 @@
+to create
+    npm create vite@latest filename -- --template react
+to run
+    cd (filename)
+    npm run dev
+to update react
+    npm install react@latest react-dom@latest
+to viwe vertion
+    npm list react
